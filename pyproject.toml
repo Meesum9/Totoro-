@@ -1,0 +1,15 @@
+[project]
+name = "Totoro"
+version = "0.1.0"
+description = "Evidence-Grounded Conversational Mental Health RAG Companion"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "langchain>=1.4.7",
+    "langchain-openai>=1.7.3",
+    "langchain-pinecone>=0.2.13",
+    "langchain-text-splitters>=1.1.3",
+    "pinecone>=7.3.0",
+    "python-dotenv>=1.2.4",
+    "streamlit>=1.66.1",
+]
